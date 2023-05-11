@@ -1,0 +1,103 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+}
+.title {
+  color: #fff;
+  font-size: 3rem;
+}
+.controles {
+  color: #000000;
+  margin-left: 4rem;
+  font-size: 2rem;
+}
+.contatos {
+  flex-direction: column;
+  margin-left: 20rem;
+  background-color: #10510c;
+  border-radius: 5 ;
+}
+.headerContatos {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  padding-bottom: 1rem;
+
+}
+.buttons {
+  margin-top: 1rem;
+  margin-left: 5rem;
+}
+.buttom {
+  height: 3.4rem;
+  width:  3.4rem;
+  align-items: center;
+   background-color: #2121218c;
+   color: #fff;
+   border-width: 0.1rem;
+   border-color: #ffffff;
+   margin-left: 1rem;
+   border-radius: 5px;
+   font-size: 1.7rem;
+   padding-top: 0.3rem;
+   
+}
+.buttom:hover{
+  box-shadow: 1px 2px 9px #dbdbdb;
+}
+.pesquisa {
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.buttomPesquisa {
+  background-color: #00000093;
+  height: 3.3rem;
+  width: 5rem;
+  border-width: 0.1rem;
+  border-color: #ffffff;
+   color: #fff;
+   font-size: 1.5rem;
+   box-shadow: 1px 2px 5px  #000000a4;
+   
+}
+.inputPesquisa {
+background-color: #00000093;
+height: 3.5rem;
+width: 31rem;
+border-width: 0.1rem;
+border-color: #ffffff;
+   font-size: medium;
+   color: #fff;
+box-shadow: 1px 2px 5px  #000000a4;
+   
+   
+}
+.listaContatos {
+  background-color: var(--color-bg-dark);
+  padding: 2rem;
+  
+}
+
+.listaCatalogo {
+  display: flex;
+  flex:1;
+  flex-direction: row;
+}
+.letraCatalogo {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 60px;
+  background-color: var(--color-bg-dark);
+  border: 1px solid #064d06;
+  box-shadow: 1px 2px 5px #000000;
+  font-size: 2rem;
+  margin-right: 4rem;
+  margin-top: 4rem;
+  text-align: center;
+  padding-top: 0.2rem;
+  color: #ffffff
+}
